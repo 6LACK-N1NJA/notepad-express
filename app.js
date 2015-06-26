@@ -63,3 +63,5 @@ app.use(function(err, req, res, next) {
 
 
 module.exports = app;
+
+Document.require('./models.js').Document(db);
